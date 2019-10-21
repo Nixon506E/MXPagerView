@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "MXPagerView",
-    platforms: [.iOS(.v7)],
+    platforms: [.iOS(.v10)],
     products: [
         .library(name: "MXPagerView",
                  targets: ["MXPagerView"])
