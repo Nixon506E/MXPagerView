@@ -11,6 +11,7 @@ let package = Package(
     targets: [
         .target(
             name: "MXPagerView",
+            dependencies:["objc"],
             path: "MXPagerView"
         )
     ],
