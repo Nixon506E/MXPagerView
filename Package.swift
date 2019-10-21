@@ -11,9 +11,8 @@ let package = Package(
     targets: [
         .target(
             name: "MXPagerView",
-            dependencies:["objc"],
             path: "MXPagerView"
         )
     ],
-    swiftLanguageVersions: [.v5,.v4]
+    cLanguageStandard: [.c11]
 )
