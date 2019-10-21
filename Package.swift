@@ -14,5 +14,5 @@ let package = Package(
             path: "MXPagerView"
         )
     ],
-    cLanguageStandard: [.c11]
+    cLanguageStandard: .c11
 )
