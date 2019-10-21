@@ -12,7 +12,7 @@ let package = Package(
         .target(
             name: "MXPagerView",
             path: "MXPagerView",
-            publicHeadersPath: "MXPagerView"
+            publicHeadersPath: "Framework"
         )
     ],
     cLanguageStandard: .c11
